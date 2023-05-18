@@ -1,0 +1,35 @@
+body {
+  font-size: 18px;
+}
+
+.container {
+  background-color: white;
+  border: solid 3px gold;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-box {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: white;
+  text-align: center;
+  width: 250px;
+  height: 350px;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.right-box {
+  width: 250px;
+  height: 350px;
+}
+
+.rectangle {
+  text-align: center;
+  height: 40px;
+  width: 200px;
+  background: chartreuse;
+  margin: 10px;
+  border-radius: 30px;
+  justify-content: center;
+}
