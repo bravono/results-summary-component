@@ -1,27 +1,70 @@
 body {
   font-size: 18px;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+h1 {
+  font-size: 18px;
 }
 
 .container {
   background-color: white;
   border: solid 3px gold;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-rows: 350px;
+  grid-template-columns: repeat(2, 300px);
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+.blur {
+  color: hsl(0, 4%, 75%);
 }
 
 .left-box {
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-  color: white;
-  text-align: center;
-  width: 250px;
-  height: 350px;
-  border-radius: 20px;
+  width: 300px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 210px;
+  grid-template-rows: 20% 40% 10% 30%;
   justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.big-number {
+  font-size: 50px;
+  font-weight: 800;
+  margin: 25px 0 0 0;
+}
+
+.total {
+  margin: 0;
+  font-size: 15px;
+  color: hsl(0, 4%, 60%);
+}
+
+.note {
+  font-size: 15px;
 }
 
 .right-box {
-  width: 250px;
-  height: 350px;
+  width: 300px;
+  height: 400px;
+  border: 3px solid greenyellow;
+  border-radius: 20px;
 }
 
 .rectangle {
@@ -31,5 +74,4 @@ body {
   background: chartreuse;
   margin: 10px;
   border-radius: 30px;
-  justify-content: center;
 }
