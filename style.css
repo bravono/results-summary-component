@@ -19,7 +19,7 @@ h1 {
 }
 
 .blur {
-  color: hsl(0, 4%, 75%);
+  color: hsla(0, 0%, 100%, 0.5);
 }
 
 .left-box {
@@ -41,7 +41,7 @@ h1 {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  background: linear-gradient(hsla(256, 72%, 46%), hsla(241, 72%, 46%, 0));
 }
 
 .big-number {
@@ -53,7 +53,7 @@ h1 {
 .total {
   margin: 0;
   font-size: 15px;
-  color: hsl(0, 4%, 60%);
+  color: hsla(0, 0%, 100%, 0.3);
 }
 
 .note {
@@ -65,13 +65,37 @@ h1 {
   height: 400px;
   border: 3px solid greenyellow;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 13px;
+}
+
+.summary {
+  margin: 8px 0 0 30px;
+  align-self: flex-start;
+  font-size: 18px;
 }
 
 .rectangle {
-  text-align: center;
   height: 40px;
-  width: 200px;
-  background: chartreuse;
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid gray;
+  border-radius: 10px;
+  /* margin: ; */
+}
+
+.btn {
+  height: 40px;
+  width: 240px;
   margin: 10px;
-  border-radius: 30px;
+  border: 0;
+  border-radius: 20px;
+  background: hsl(224, 30%, 27%);
+  color: white;
 }
