@@ -81,13 +81,19 @@ h1 {
 .rectangle {
   height: 40px;
   width: 240px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
   border: 2px solid gray;
   border-radius: 10px;
-  /* margin: ; */
+  padding: 0 15px;
+  display: grid;
+  grid-template-columns: 15% 60% 30%;
+  grid-template-rows: 100%;
+  justify-items: flex-start;
+  align-items: center;
+  font-size: 15px;
+}
+
+.text {
+  align-self: flex-start;
 }
 
 .btn {
