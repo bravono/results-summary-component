@@ -127,7 +127,11 @@ mark {
   color: white;
 }
 
-@media screen and (min-width: 375px) {
+.btn:hover {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media screen and (max-width: 1440px) {
   .article {
     width: auto;
     height: auto;
