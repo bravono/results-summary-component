@@ -131,7 +131,7 @@ mark {
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 375px) {
   .article {
     width: auto;
     height: auto;
