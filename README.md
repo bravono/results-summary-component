@@ -16,7 +16,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Overview
 
-This is my second project challenge on Frontend Mentor.
+This is my second challenge on Frontend Mentor.
 
 ### The challenge
 
