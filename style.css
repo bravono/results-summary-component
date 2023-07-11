@@ -27,7 +27,7 @@ mark {
   border-radius: 20px;
   display: flex;
   flex-direction: row;
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 20px hsla(252, 100%, 67%, 0.1);
 }
 
 .blur {
